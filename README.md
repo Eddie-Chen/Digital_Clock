@@ -1,18 +1,18 @@
-電子時鐘
+# 電子時鐘
 
 ---
 
-電腦配置:
+**電腦配置:**
 
 - Eclipse Oxygen
 - JDK-8u111
 
-檔案:
+**檔案:**
 
 1. DigitalLabel
 2. Digital_Clock
 
-類別解析:
+**類別解析:**
 
 - SimpleDateFormat:
   SimpleDateFormat is a concrete class for formatting and parsing dates in a locale-sensitive manner. It allows for formatting (date -> text), parsing (text -> date), and normalization.
@@ -33,10 +33,11 @@
 
 
 
-DigitalLabel
+## DigitalLabel
 
 ---
 
+```java
     package Label;
     
     import java.awt.BorderLayout;
@@ -114,14 +115,14 @@ DigitalLabel
     	}
     }
 
-
+```
 
 
 
 Digital_Clock
 
 ---
-
+```java
     import java.awt.Color;
     import java.awt.GridLayout;
     
@@ -156,11 +157,11 @@ Digital_Clock
     	}
     }
 
+```
 
 
 
-
-Reference:
+## Reference:
 
 ---
 
